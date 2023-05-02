@@ -6,7 +6,7 @@
 
 .heading2 {
     color: rgb(16, 16, 131);
-    font-size: 110%;
+    font-size: 120%;
     font-weight:bold;
     text-align: center;
   
@@ -15,7 +15,7 @@
 
 .heading3 {
   color: rgb(16, 16, 131);
-  font-size: 95%;
+  font-size: 100%;
   font-weight:bold;
   text-align: center;
 
@@ -23,31 +23,40 @@
 
 .heading4 {
   color: rgb(16, 16, 131);
-  font-size: 80%;
+  font-size: 90%;
   font-weight:bold;
   text-align: center;
 
-}
-
-.heading5 {
-  color: rgb(16, 16, 131);
-  font-size: 40%;
-  font-weight:bold;
-  text-align: center;
-
-}
-
-.song-table {
-    background-color: orange;
 }
 
 /* container */
-.two-columns {
-  display:flex;
+.two-columns-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1.9fr;
+
 }
 
 /* columns */
-.two-columns > * {
-  width:50%;
+.two-columns-grid > * {
   padding:1rem;
+  margin: 6px 0px 20px 100px;
+  color: rgb(16, 16, 131)
+
+}
+
+.notes {
+  font-size: x-small;
+  margin: 0px 0px 0px 20px;
+}
+
+.footer-text {
+  color: rgb(16, 16, 131);
+  font-size: 70%;
+  text-align: center;
+
+}
+
+.footer-text2 {
+  color: rgb(16, 16, 131);
+  font-size: 90%;
 }
