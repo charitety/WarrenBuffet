@@ -40,3 +40,14 @@
 .song-table {
     background-color: orange;
 }
+
+/* container */
+.two-columns {
+  display:flex;
+}
+
+/* columns */
+.two-columns > * {
+  width:50%;
+  padding:1rem;
+}
