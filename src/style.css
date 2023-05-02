@@ -1,9 +1,11 @@
-body {
-    background-color:; 
+.body {
+  max-width: 500px;
+  margin: auto;
 }
 
-h1 {
-    color: dimgray;
+
+.heading1 {
+    color: rgb(16, 16, 131)
 
 }
 
